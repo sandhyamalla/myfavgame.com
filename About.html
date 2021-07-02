@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>MY FAVOURITE GAME: ASSASSIN'S CREED ODYSSEY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+</head>
+<body>
+<section class="Sub-header">
+   <nav>
+    <a herf="index.html"><img src="images/logo.jpg"> </a>
+       <div class="Nav-links" id="navLinks">
+           <i class="fa fa-window-close" onclick="hideMenu()" ></i>
+       <ul>
+           <li> <a href="index.html">Home</a></li>
+           <li> <a href="Chapters.html">Chapters</a></li>
+            <li> <a href="Protagonist.html">Protagonist </a></li>     
+           <li> <a href="story.html">Story</a></li>
+           <li> <a href="signup.html">Sign Up</a></li>
+           <li> <a href="About.html">About Me</a></li>
+           </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    </section>
+
+
+           
+           
+<!-----footer---->
+           <section class="footer">
+           <h4>About Me</h4>
+               <div class="footer-col">
+               <img src="images/pp.jpg">
+               
+               </div> 
+           <p>Hi! I am Sandhya Malla.<br>I am a passionate gamer. </p>
+               <div class="icons">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i> 
+            </div>
+               <P>Made with<i class="fa fa-heart" ></i> by Sandhya</P>
+           </section>
+
+
+
+<!-----JavaScript for toggle menu----> 
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-260px";
+    
+    }
+    </script>
+
+</body>
+</html>
